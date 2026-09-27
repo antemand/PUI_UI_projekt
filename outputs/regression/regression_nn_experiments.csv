@@ -1,0 +1,24 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Optimizer,batch_size,Epohe,MSE,MAE
+batch_size = 64,2,64-32,relu+relu,0.0,adam,64,33,19740466.1,2618.82
+aktivacija = sigmoid,2,64-32,sigmoid+sigmoid,0.0,adam,32,150,19967723.73,2775.28
+Neural Network 1,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+Neural Network 1 (StandardScaler),2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+batch_size = 32,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+aktivacija = relu,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+2 sloja,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+optimizer = adam,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+dropout = 0.2,3,128-64-32,relu+relu+relu,0.2,adam,32,44,20220575.31,2696.78
+optimizer = rmsprop,2,64-32,relu+relu,0.0,rmsprop,32,25,20346909.57,2744.57
+1 sloj,1,64,relu,0.0,adam,32,54,20776230.83,2686.59
+batch_size = 128,2,64-32,relu+relu,0.0,adam,128,37,20836027.01,2643.43
+batch_size = 1,2,64-32,relu+relu,0.0,adam,1,18,20887381.04,2399.94
+Neural Network 2,3,128-64-32,relu+tanh+relu,"[0.2, 0.2, 0.0]",rmsprop,16,18,21218226.6,2662.41
+optimizer = sgd,2,64-32,relu+relu,0.0,sgd,32,55,21413695.66,2615.23
+batch_size = 16,2,64-32,relu+relu,0.0,adam,16,23,21426021.64,2549.65
+4 sloja,4,64-32-16-8,relu+relu+relu+relu,0.0,adam,32,32,21731005.49,2411.49
+dropout = 0.0,3,128-64-32,relu+relu+relu,0.0,adam,32,17,21755932.74,2448.66
+3 sloja,3,64-32-16,relu+relu+relu,0.0,adam,32,27,21793304.6,2360.48
+aktivacija = tanh,2,64-32,tanh+tanh,0.0,adam,32,37,21975412.74,2763.32
+Neural Network 1 (MinMaxScaler),2,64-32,relu+relu,0.0,adam,32,47,22096920.52,2732.75
+dropout = 0.5,3,128-64-32,relu+relu+relu,0.5,adam,32,35,24736936.05,3569.67
+Neural Network 1 (Bez skaliranja),2,64-32,relu+relu,0.0,adam,32,53,36896257.97,3541.45

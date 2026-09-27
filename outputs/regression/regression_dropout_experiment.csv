@@ -1,0 +1,4 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Optimizer,batch_size,Epohe,MSE,MAE
+dropout = 0.0,3,128-64-32,relu+relu+relu,0.0,adam,32,17,21755932.74,2448.66
+dropout = 0.2,3,128-64-32,relu+relu+relu,0.2,adam,32,44,20220575.31,2696.78
+dropout = 0.5,3,128-64-32,relu+relu+relu,0.5,adam,32,35,24736936.05,3569.67

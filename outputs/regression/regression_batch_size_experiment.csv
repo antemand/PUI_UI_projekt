@@ -1,0 +1,6 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Optimizer,batch_size,Epohe,MSE,MAE
+batch_size = 1,2,64-32,relu+relu,0.0,adam,1,18,20887381.04,2399.94
+batch_size = 16,2,64-32,relu+relu,0.0,adam,16,23,21426021.64,2549.65
+batch_size = 32,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+batch_size = 64,2,64-32,relu+relu,0.0,adam,64,33,19740466.1,2618.82
+batch_size = 128,2,64-32,relu+relu,0.0,adam,128,37,20836027.01,2643.43

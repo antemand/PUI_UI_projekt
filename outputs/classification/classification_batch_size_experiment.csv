@@ -1,0 +1,6 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Loss,Optimizer,batch_size,Epohe,Accuracy,Balanced accuracy,Precision,Recall,F1
+batch_size = 1,2,64-32,relu+relu,0.0,binary_crossentropy,adam,1,13,0.7948,0.5,0.0,0.0,0.0
+batch_size = 16,2,64-32,relu+relu,0.0,binary_crossentropy,adam,16,13,0.7948,0.5,0.0,0.0,0.0
+batch_size = 32,2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+batch_size = 64,2,64-32,relu+relu,0.0,binary_crossentropy,adam,64,15,0.7948,0.5,0.0,0.0,0.0
+batch_size = 128,2,64-32,relu+relu,0.0,binary_crossentropy,adam,128,17,0.7948,0.5,0.0,0.0,0.0

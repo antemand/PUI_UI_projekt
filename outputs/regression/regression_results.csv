@@ -1,0 +1,6 @@
+Model,Type,MSE,MAE
+Random Forest,Classical,21901936.13,2505.56
+XGBoost,Classical,21087268.02,2567.31
+k-NN,Classical,42931319.1,3693.21
+Neural Network 1,Neural,20206713.15,2664.95
+Neural Network 2,Neural,21218226.6,2662.41

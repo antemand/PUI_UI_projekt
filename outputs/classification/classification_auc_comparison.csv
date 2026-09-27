@@ -1,0 +1,6 @@
+Model,AUC (5-fold),AUC std,AUC (test)
+Logistic Regression,0.5496,0.0406,0.575
+Random Forest,0.5182,0.0346,0.4726
+XGBoost,0.502,0.0295,0.4599
+Neural Network 1,,,0.435
+Neural Network 2,,,0.541

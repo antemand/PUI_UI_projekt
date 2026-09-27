@@ -1,0 +1,4 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Optimizer,batch_size,Epohe,MSE,MAE
+optimizer = adam,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+optimizer = rmsprop,2,64-32,relu+relu,0.0,rmsprop,32,25,20346909.57,2744.57
+optimizer = sgd,2,64-32,relu+relu,0.0,sgd,32,55,21413695.66,2615.23

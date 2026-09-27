@@ -1,0 +1,5 @@
+Model,Type,Accuracy,Balanced accuracy,Precision,Recall,F1
+Logistic Regression (balanced),Classical (balanced),0.5224,0.5309,0.2256,0.5455,0.3191
+Random Forest (balanced),Classical (balanced),0.6791,0.4947,0.1961,0.1818,0.1887
+XGBoost (balanced),Classical (balanced),0.597,0.47,0.1728,0.2545,0.2059
+Neural Network 1 (balanced),Neural,0.5858,0.5236,0.2255,0.4182,0.293

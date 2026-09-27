@@ -1,0 +1,7 @@
+Model,Scaler,Accuracy
+Logistic Regression,StandardScaler,0.7948
+Neural Network 1,StandardScaler,0.7948
+Logistic Regression,MinMaxScaler,0.7948
+Neural Network 1,MinMaxScaler,0.7948
+Logistic Regression,Bez skaliranja,0.7948
+Neural Network 1,Bez skaliranja,0.7948

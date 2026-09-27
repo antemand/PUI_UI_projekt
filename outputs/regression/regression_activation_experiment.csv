@@ -1,0 +1,4 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Optimizer,batch_size,Epohe,MSE,MAE
+aktivacija = relu,2,64-32,relu+relu,0.0,adam,32,23,20206713.15,2664.95
+aktivacija = tanh,2,64-32,tanh+tanh,0.0,adam,32,37,21975412.74,2763.32
+aktivacija = sigmoid,2,64-32,sigmoid+sigmoid,0.0,adam,32,150,19967723.73,2775.28

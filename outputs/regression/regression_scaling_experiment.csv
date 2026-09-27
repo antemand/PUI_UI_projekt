@@ -1,0 +1,7 @@
+Model,Scaler,MSE,MAE
+k-NN,StandardScaler,42931319.1,3693.21
+Neural Network 1,StandardScaler,20206713.15,2664.95
+k-NN,MinMaxScaler,34633901.33,3536.55
+Neural Network 1,MinMaxScaler,22096920.52,2732.75
+k-NN,Bez skaliranja,118647616.5,6923.05
+Neural Network 1,Bez skaliranja,36896257.97,3541.45

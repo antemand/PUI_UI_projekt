@@ -1,0 +1,1 @@
+Projekt iz kolegija Umjetna inteligencija (PUI): Regresija i binarna klasifikacija nad skupom podataka „insurance.csv“

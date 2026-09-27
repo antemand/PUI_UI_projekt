@@ -1,0 +1,20 @@
+Model,Slojevi,Neuroni,Aktivacije,Dropout,Loss,Optimizer,batch_size,Epohe,Accuracy,Balanced accuracy,Precision,Recall,F1
+Neural Network 1,2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+Neural Network 2,3,128-64-32,relu+tanh+relu,lista,binary_crossentropy,adam,16,13,0.7948,0.5,0.0,0.0,0.0
+Neural Network 1 (StandardScaler),2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+Neural Network 1 (MinMaxScaler),2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,15,0.7948,0.5,0.0,0.0,0.0
+Neural Network 1 (Bez skaliranja),2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,25,0.7948,0.5,0.0,0.0,0.0
+batch_size = 1,2,64-32,relu+relu,0.0,binary_crossentropy,adam,1,13,0.7948,0.5,0.0,0.0,0.0
+batch_size = 16,2,64-32,relu+relu,0.0,binary_crossentropy,adam,16,13,0.7948,0.5,0.0,0.0,0.0
+batch_size = 32,2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+batch_size = 64,2,64-32,relu+relu,0.0,binary_crossentropy,adam,64,15,0.7948,0.5,0.0,0.0,0.0
+batch_size = 128,2,64-32,relu+relu,0.0,binary_crossentropy,adam,128,17,0.7948,0.5,0.0,0.0,0.0
+aktivacija = relu,2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+aktivacija = tanh,2,64-32,tanh+tanh,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+aktivacija = sigmoid,2,64-32,sigmoid+sigmoid,0.0,binary_crossentropy,adam,32,13,0.7948,0.5,0.0,0.0,0.0
+dropout = 0.0,3,128-64-32,relu+relu+relu,0.0,binary_crossentropy,adam,32,15,0.7948,0.5,0.0,0.0,0.0
+dropout = 0.2,3,128-64-32,relu+relu+relu,0.2,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+dropout = 0.5,3,128-64-32,relu+relu+relu,0.5,binary_crossentropy,adam,32,15,0.7948,0.5,0.0,0.0,0.0
+loss = binary_crossentropy,2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+loss = mse,2,64-32,relu+relu,0.0,mse,adam,32,14,0.7948,0.5,0.0,0.0,0.0
+Neural Network 1 (balanced),2,64-32,relu+relu,0.0,binary_crossentropy,adam,32,43,0.5858,0.5236,0.2255,0.4182,0.293
